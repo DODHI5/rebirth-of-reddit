@@ -1,2 +1,33 @@
-html {
-  background: red; }
+header {
+  background-color: #F1F1F1;
+  padding: 30px;
+  background-image: url("../assets/logo.svg");
+  background-repeat: no-repeat; }
+  header a {
+    font-size: 20px; }
+
+body {
+  background-image: url("../assets/bg.jpg"); }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  display: block;
+  padding: 15px; }
+
+.topnav a {
+  color: #f2f2f2;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none; }
+
+.motor {
+  padding: 10px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: #F1F1F1; }
+
+img {
+  height: 250px;
+  width: 400px; }
