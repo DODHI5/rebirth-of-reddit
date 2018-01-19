@@ -25,7 +25,7 @@ function motorCycle(mcInfo, parentElm) {
     mcThumbNail.className = "thumbnail";
     mcThumbNail.setAttribute('src', element.data.url);
     mcThumbNail.onerror = function () {
-      mcThumbNail.src = 'http://lorempixel.com/400/250/transport/';
+      mcThumbNail.src = 'http://lorempixel.com/350/255/transport/';
     }
     createMC.appendChild(mcThumbNail);
 
@@ -55,30 +55,4 @@ function motorCycle(mcInfo, parentElm) {
   })
 parentElm.appendChild(collection);
 }
-getReddit('https://www.reddit.com/r/ducati.json')
-
-//     let filmPlanets = element.planets;
-
-
-//     filmPlanets.forEach(function(element, index, array) {
-//       let reqPlanets = new XMLHttpRequest();
-//       reqPlanets.addEventListener("load", planets);
-//       reqPlanets.open("GET", element);
-//       reqPlanets.send();
-
-//       function planets() {
-//         console.log(this.response);
-//         let formatPlanets = JSON.parse(this.response);
-//         let planetName = formatPlanets.name;
-
-//         let createPlanets = document.createElement("li");
-//         createPlanets.className = "planet";
-//         createFilmPlanets.appendChild(createPlanets);
-//         let createPlanetName = document.createElement("h4");
-//         createPlanetName.className = "planetName";
-//         createPlanets.appendChild(createPlanetName);
-//         createPlanetName.innerText = planetName;
-//       }
-//     })
-//   }) 
-// }
+getReddit('https://www.reddit.com/r/ducati.json');
