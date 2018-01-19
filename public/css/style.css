@@ -18,7 +18,7 @@ body {
   text-align: center; }
 
 .thumbnail {
-  width: 264px;
+  width: 315px;
   height: 250px; }
 
 .topnav {
@@ -37,17 +37,11 @@ body {
 
 .motor {
   background-color: #F1F1F1;
-  padding: 10%;
-  margin: 5%; }
-
-img {
-  width: 350;
-  height: 255; }
+  padding: 5%;
+  margin: 3%; }
 
 .mcTitle {
-  text-align: left;
-  overflow: hidden;
-  text-overflow: ellipsis; }
+  text-align: left; }
 
 .Author {
   text-align: left; }
@@ -56,7 +50,9 @@ img {
   text-align: left; }
 
 .display {
-  text-align: left; }
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 .footer {
   position: relative;

@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 .thumbnail{
-  width: 264px;
+  width: 315px;
   height: 250px;
 }
 
@@ -44,23 +44,14 @@ body {
 
 .motor {
   background-color: #F1F1F1;
-  padding: 10%;
-  margin: 5%;
-  
-   
-  
-
+  padding: 5%;
+  margin: 3%;
 }
 
-img {
-  width: 350;
-  height: 255;
-}
 
 .mcTitle {
   text-align: left;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  
 }
 
 .Author {
@@ -73,6 +64,8 @@ img {
 
 .display {
   text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer {
